@@ -1,0 +1,151 @@
+/* CSS Document */
+
+		* {outline:1px solid red;}
+		
+      /* box-sizing */
+		html {
+			box-sizing:border-box;
+		}
+		*, *:before, *:after {
+			box-sizing:inherit;
+		}
+		
+		/* STRUCTURE */
+		html {background-color:#444}
+		#wrap {width:100%; max-width:800px; margin:0 auto; padding-bottom:40px; background-color:white;}
+		header {padding:20px 40px;}
+		section {padding:0 40px;}
+		header {background-color:lightblue}
+		
+		/*TYPOGRAPHY*/
+		li {margin-bottom:8px;}
+		h1 {}
+		h2 {padding-top:20px;}
+		
+		header h1 {margin-bottom:0;}
+		header h2 {margin-top:0; padding-top:0; font-style:italic;}
+		
+		#contact ul {list-style-type:none;}
+		#contact li {display:inline;}
+		#contact span {padding:0 10px}
+		
+		#skills ul, #certifications ul {display:flex; list-style-type:none; padding:0;}
+		#skills li, #certifications li {padding:10px; margin:0 10px 0 0; background-color:lightblue; border-radius:6px;}
+		
+		#experience h3 {margin-bottom:4px;}
+		#experience h4 {margin-top:0; margin-bottom:3px;}
+		#experience h4 + ul {margin-top:0;}
+		#experience h5 {margin-top:0; margin-bottom:3px;}
+		
+		#education h3 {margin-bottom:4px;}
+		#education h4 {margin-top:0; margin-bottom:3px;}
+		#education h5 {margin-top:0; margin-bottom:3px;}
+
+.kanit-thin {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.kanit-extralight {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.kanit-light {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kanit-regular {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kanit-medium {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.kanit-semibold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.kanit-bold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.kanit-extrabold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.kanit-black {
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.kanit-thin-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.kanit-extralight-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.kanit-light-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.kanit-regular-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.kanit-medium-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.kanit-semibold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.kanit-bold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.kanit-extrabold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.kanit-black-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
